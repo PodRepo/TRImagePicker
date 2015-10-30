@@ -1,0 +1,37 @@
+PODS:
+  - Masonry (0.6.2)
+  - TRCropViewController (1.0.9)
+  - TRImagePicker (0.0.1):
+    - Masonry (~> 0.6.2)
+    - TRCropViewController
+    - TRPhotoTaker
+  - TRPhotoTaker (0.0.1)
+
+DEPENDENCIES:
+  - TRCropViewController (from `https://github.com/PodRepo/TRCropViewController.git`)
+  - TRImagePicker (from `../`)
+  - TRPhotoTaker (from `https://github.com/PodRepo/TRPhotoTaker.git`)
+
+EXTERNAL SOURCES:
+  TRCropViewController:
+    :git: https://github.com/PodRepo/TRCropViewController.git
+  TRImagePicker:
+    :path: ../
+  TRPhotoTaker:
+    :git: https://github.com/PodRepo/TRPhotoTaker.git
+
+CHECKOUT OPTIONS:
+  TRCropViewController:
+    :commit: 5e149e966d27769c7b71d92a626ce4de78f346b8
+    :git: https://github.com/PodRepo/TRCropViewController.git
+  TRPhotoTaker:
+    :commit: 4ff4f1b7f6d073d88947a56f78e72ebf3eb2f2c9
+    :git: https://github.com/PodRepo/TRPhotoTaker.git
+
+SPEC CHECKSUMS:
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  TRCropViewController: 9755d2717ab5d4c94501c51a2b19d0dbb9a04bc2
+  TRImagePicker: 0c0cc49a0006352e9e0af0eb36b6443cabb6d00f
+  TRPhotoTaker: 0cb92950f07116868bb4b881b6d59c9eb8534e94
+
+COCOAPODS: 0.39.0
